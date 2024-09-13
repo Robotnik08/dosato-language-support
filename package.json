@@ -1,0 +1,52 @@
+{
+	"name": "dosato-language-support",
+	"displayName": "Dosato language support",
+	"description": "Syntax highlighting for Dosato",
+	"version": "1.0.2",
+	"publisher": "SebastiaanHeins",
+	"license": "Me",
+	"icon": "icons/Dosato_Logo.png",
+	"engines": {
+		"vscode": "^1.83.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "dosato",
+				"aliases": [
+					"Dosato",
+					"dosato"
+				],
+				"extensions": [
+					".to"
+				],
+				"configuration": "./language-configuration.json",
+				"icon": {
+					"light": "icons/File_Icon.png",
+					"dark": "icons/File_Icon.png"
+				}
+			}
+		],
+		"grammars": [
+			{
+				"language": "dosato",
+				"scopeName": "source.to",
+				"path": "./syntaxes/dosato.tmLanguage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "f82cf8bf-54a5-4923-9a72-b9c5c91afc6c",
+		"publisherId": "2df1a518-03dc-467b-94a5-8d045d588b31",
+		"publisherDisplayName": "SebastiaanHeins",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1713282266072,
+		"pinned": false
+	}
+}

@@ -1,0 +1,112 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Dosato",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#numbers"
+		},
+		{
+			"include": "#typeNames"
+		},
+		{
+			"include": "#masterStatements"
+		},
+		{
+			"include": "#identifiers"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.dosato",
+				"match": "(?i)\\b(WHEN|CATCH|WHILE|ELSE|THEN|IF|FOR)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.dosato",
+			"patterns": [
+				{
+					"name": "constant.character.escape.dosato",
+					"match": "\\\\."
+				},
+				{
+					"name": "string.quoted.single.dosato",
+					"begin": "'",
+					"end": "'",
+					"patterns": [
+						{
+							"name": "constant.character.escape.dosato",
+							"match": "\\\\."
+						}
+					]
+				},
+				{
+					"name": "string.quoted.double.dosato",
+					"begin": "\"",
+					"end": "\"",
+					"patterns": [
+						{
+							"name": "constant.character.escape.dosato",
+							"match": "\\\\."
+						}
+					]
+				}
+			]
+		},
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.dosato",
+					"match": "//.*$"
+				}
+			]
+		},
+		"numbers": {
+			"patterns": [
+				{
+					"name": "constant.numeric.dosato",
+					"match": "\\b\\d+(\\.\\d+)?\\b"
+				}
+			]
+		},
+		"typeNames": {
+			"patterns": [
+				{
+					"name": "storage.type.dosato",
+					"match": "(?i)\\b(INT|BOOL|STRING|FLOAT|DOUBLE|CHAR|SHORT|LONG|BYTE|VOID|ARRAY|UINT|USHORT|ULONG|USHORT|ULONG|UBYTE|OBJECT|VAR)\\b"
+				}
+			]
+		},
+		"masterStatements": {
+			"patterns": [
+				{
+					"name": "keyword.control.master.dosato",
+					"match": "(?i)\\b(DO|SET|MAKE|DEFINE|IMPORT|INCLUDE|RETURN|CONTINUE|BREAK)\\b",
+					"foreground": "#00FF00"
+				}
+			]
+		},
+		"identifiers": {
+			"patterns": [
+				{
+					"name": "variable.other.dosato",
+					"match": "\\b[A-Za-z_][A-Za-z0-9_]*\\b"
+				},
+				{
+					"name": "entity.name.function.dosato",
+					"match": "\\b[A-Za-z_][A-Za-z0-9_]*\\s*(?=\\()"
+				}
+			]
+		}
+	},
+	"scopeName": "source.to"
+}
