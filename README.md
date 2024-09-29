@@ -12,14 +12,6 @@
     Variables, functions, comments, strings, numbers, etc.
 ## Release Notes
 
-### 1.0.0
+### 1.1.2
 
-Initial release for Dosato Language syntax highlighting (Dosato 0.9 versions)
-
-### 1.0.1
-
-Added an icon
-
-### 1.0.2
-
-Fixed file icon name
+Added support for Switch statements
