@@ -28,7 +28,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.dosato",
-				"match": "(?i)\\b(WHEN|CATCH|WHILE|ELSE|THEN|IF|FOR)\\b"
+				"match": "(?i)\\b(WHEN|CATCH|WHILE|ELSE|THEN|IF|FOR|OTHER)\\b"
 			}]
 		},
 		"strings": {
@@ -90,7 +90,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.master.dosato",
-					"match": "(?i)\\b(DO|SET|MAKE|DEFINE|IMPORT|INCLUDE|RETURN|CONTINUE|BREAK)\\b",
+					"match": "(?i)\\b(DO|SET|MAKE|DEFINE|IMPORT|INCLUDE|RETURN|CONTINUE|BREAK|SWITCH)\\b",
 					"foreground": "#00FF00"
 				}
 			]
