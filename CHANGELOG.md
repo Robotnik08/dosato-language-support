@@ -1,3 +1,7 @@
-# Change Log
+### 1.1.3
 
-1.0.0
+Added support for new keywords (const and function)
+
+### 1.1.2
+
+Added support for Switch statements

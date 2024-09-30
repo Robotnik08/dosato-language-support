@@ -10,7 +10,12 @@
 - Syntax highlighting
     Syntax highlighting for Dosato language
     Variables, functions, comments, strings, numbers, etc.
+
 ## Release Notes
+
+### 1.1.3
+
+Added support for new keywords (const and function)
 
 ### 1.1.2
 
