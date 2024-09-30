@@ -82,7 +82,7 @@
 			"patterns": [
 				{
 					"name": "storage.type.dosato",
-					"match": "(?i)\\b(INT|BOOL|STRING|FLOAT|DOUBLE|CHAR|SHORT|LONG|BYTE|VOID|ARRAY|UINT|USHORT|ULONG|USHORT|ULONG|UBYTE|OBJECT|VAR|TRUE|FALSE|NULL)\\b"
+					"match": "(?i)\\b(INT|BOOL|STRING|FLOAT|DOUBLE|CHAR|SHORT|LONG|BYTE|VOID|ARRAY|UINT|USHORT|ULONG|USHORT|ULONG|UBYTE|OBJECT|VAR|FUNCTION|TRUE|FALSE|NULL|CONST)\\b"
 				}
 			]
 		},
@@ -97,10 +97,6 @@
 		},
 		"identifiers": {
 			"patterns": [
-				{
-					"name": "entity.name.function.definition.dosato",
-					"match": "\\bDEFINE\\s+(?:VOID|INT|BOOL|CHAR|STRING|ARRAY|VAR)\\s+([A-Za-z_][A-Za-z0-9_]*)\\b"
-				},
 				{
 					"name": "entity.name.function.dosato",
 					"match": "\\b[A-Za-z_][A-Za-z0-9_]*\\s*(?=\\()"
