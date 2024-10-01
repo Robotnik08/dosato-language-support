@@ -82,7 +82,7 @@
 			"patterns": [
 				{
 					"name": "storage.type.dosato",
-					"match": "(?i)\\b(INT|BOOL|STRING|FLOAT|DOUBLE|CHAR|SHORT|LONG|BYTE|VOID|ARRAY|UINT|USHORT|ULONG|USHORT|ULONG|UBYTE|OBJECT|VAR|FUNCTION|TRUE|FALSE|NULL|CONST)\\b"
+					"match": "(?i)\\b(INT|BOOL|STRING|FLOAT|DOUBLE|CHAR|SHORT|LONG|BYTE|VOID|ARRAY|UINT|USHORT|ULONG|USHORT|ULONG|UBYTE|OBJECT|VAR|FUNCTION|TRUE|FALSE|NULL)\\b"
 				}
 			]
 		},
@@ -90,7 +90,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.master.dosato",
-					"match": "(?i)\\b(DO|SET|MAKE|DEFINE|IMPORT|INCLUDE|RETURN|CONTINUE|BREAK|SWITCH)\\b",
+					"match": "(?i)\\b(DO|SET|MAKE|DEFINE|IMPORT|INCLUDE|RETURN|CONTINUE|BREAK|SWITCH|CONST)\\b",
 					"foreground": "#00FF00"
 				}
 			]

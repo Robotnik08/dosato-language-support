@@ -1,4 +1,4 @@
-### 1.1.3
+### 1.1.4
 
 Added support for new keywords (const and function)
 
