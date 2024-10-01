@@ -67,6 +67,11 @@
 				{
 					"name": "comment.line.dosato",
 					"match": "//.*$"
+				},
+				{
+					"name": "comment.block.dosato",
+					"begin": "/\\*",
+					"end": "\\*/"
 				}
 			]
 		},
