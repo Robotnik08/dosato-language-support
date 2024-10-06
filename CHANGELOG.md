@@ -1,3 +1,7 @@
+### 1.1.6
+
+Added support for template strings
+
 ### 1.1.5
 
 Added support for block comments

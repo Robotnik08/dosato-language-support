@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "Dosato",
+	"name": "dosato",
 	"patterns": [
 		{
 			"include": "#comments"
@@ -26,10 +26,12 @@
 	],
 	"repository": {
 		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.dosato",
-				"match": "(?i)\\b(WHEN|CATCH|WHILE|ELSE|THEN|IF|FOR|OTHER)\\b"
-			}]
+			"patterns": [
+				{
+					"name": "keyword.control.dosato",
+					"match": "(?i)\\b(WHEN|CATCH|WHILE|ELSE|THEN|IF|FOR|OTHER)\\b"
+				}
+			]
 		},
 		"strings": {
 			"name": "string.quoted.dosato",
@@ -57,6 +59,34 @@
 						{
 							"name": "constant.character.escape.dosato",
 							"match": "\\\\."
+						}
+					]
+				},
+				{
+					"name": "string.template.dosato",
+					"begin": "`",
+					"end": "`",
+					"patterns": [
+						{
+							"name": "interpolation.dosato",
+							"begin": "\\{",
+							"end": "\\}",
+							"contentName": "meta.embedded.block.dosato",
+							"patterns": [
+								{
+									"begin": "\\{",
+									"end": "\\}",
+									"name": "meta.object-literal.dosato",
+									"patterns": [
+										{
+											"include": "source.to"
+										}
+									]
+								},
+								{
+									"include": "source.to"
+								}
+							]
 						}
 					]
 				}
