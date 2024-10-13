@@ -1,3 +1,7 @@
+### 1.1.7
+
+Infinity and NaN are now highlighted as constants
+
 ### 1.1.6
 
 Added support for template strings
