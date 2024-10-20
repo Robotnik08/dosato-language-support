@@ -110,6 +110,18 @@
 				{
 					"name": "constant.numeric.dosato",
 					"match": "\\b\\d+(\\.\\d+)?\\b"
+				},
+				{
+					"name": "constant.numeric.hexadecimal.dosato",
+					"match": "\\b0[xX][0-9a-fA-F]+\\b"
+				},
+				{
+					"name": "constant.numeric.binary.dosato",
+					"match": "\\b0[bB][01]+\\b"
+				},
+				{
+					"name": "constant.numeric.octal.dosato",
+					"match": "\\b0[oO]?[0-7]+\\b"
 				}
 			]
 		},
