@@ -1,3 +1,7 @@
+### 1.1.8
+
+Added support for hex, binary and octal numbers
+
 ### 1.1.7
 
 Infinity and NaN are now highlighted as constants
