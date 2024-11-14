@@ -87,6 +87,10 @@
 									"include": "source.to"
 								}
 							]
+						},
+						{
+							"name": "constant.character.escape.dosato",
+							"match": "\\\\."
 						}
 					]
 				}
