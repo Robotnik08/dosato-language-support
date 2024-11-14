@@ -2,7 +2,7 @@
 	"name": "dosato-language-support",
 	"displayName": "Dosato language support",
 	"description": "Syntax highlighting for Dosato",
-	"version": "1.1.10",
+	"version": "1.1.11",
 	"publisher": "SebastiaanHeins",
 	"license": "Me",
 	"icon": "icons/Dosato_Logo.png",
