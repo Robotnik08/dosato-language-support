@@ -13,7 +13,7 @@
 
 ## Release Notes
 
-### 1.1.8
+### 1.1.9
 
 Added support for hex, binary and octal numbers
 

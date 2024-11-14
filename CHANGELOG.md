@@ -1,3 +1,7 @@
+### 1.1.9
+
+Added support for the `as`, `class`, `implements` and `self` keywords
+
 ### 1.1.8
 
 Added support for hex, binary and octal numbers

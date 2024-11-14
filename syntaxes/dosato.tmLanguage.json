@@ -29,7 +29,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.dosato",
-					"match": "(?i)\\b(WHEN|CATCH|WHILE|ELSE|THEN|IF|FOR|OTHER)\\b"
+					"match": "(?i)\\b(WHEN|CATCH|WHILE|ELSE|THEN|IF|FOR|OTHER|AS)\\b"
 				}
 			]
 		},
@@ -129,7 +129,7 @@
 			"patterns": [
 				{
 					"name": "storage.type.dosato",
-					"match": "(?i)\\b(INT|BOOL|STRING|FLOAT|DOUBLE|CHAR|SHORT|LONG|BYTE|VOID|ARRAY|UINT|USHORT|ULONG|USHORT|ULONG|UBYTE|OBJECT|VAR|FUNCTION|TRUE|FALSE|NULL|INFINITY|NAN)\\b"
+					"match": "(?i)\\b(INT|BOOL|STRING|FLOAT|DOUBLE|CHAR|SHORT|LONG|BYTE|VOID|ARRAY|UINT|USHORT|ULONG|USHORT|ULONG|UBYTE|OBJECT|VAR|FUNCTION|TRUE|FALSE|NULL|INFINITY|NAN|SELF)\\b"
 				}
 			]
 		},
@@ -137,7 +137,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.master.dosato",
-					"match": "(?i)\\b(DO|SET|MAKE|DEFINE|IMPORT|INCLUDE|RETURN|CONTINUE|BREAK|SWITCH|CONST)\\b",
+					"match": "(?i)\\b(DO|SET|MAKE|DEFINE|IMPORT|INCLUDE|RETURN|CONTINUE|BREAK|SWITCH|CONST|CLASS|IMPLEMENT)\\b",
 					"foreground": "#00FF00"
 				}
 			]
