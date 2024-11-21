@@ -29,7 +29,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.dosato",
-					"match": "(?i)\\b(WHEN|CATCH|WHILE|ELSE|THEN|IF|FOR|OTHER|AS)\\b"
+					"match": "(?i)\\b(WHEN|CATCH|WHILE|ELSE|THEN|IF|UNLESS|UNTIL|FOR|OTHER|IN)\\b"
 				}
 			]
 		},

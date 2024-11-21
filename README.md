@@ -13,6 +13,10 @@
 
 ## Release Notes
 
+### 1.1.12
+
+Added support for Dosato v0.6
+
 ### 1.1.11
 
 Support for enums
