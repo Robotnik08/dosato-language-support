@@ -13,6 +13,10 @@
 
 ## Release Notes
 
+### 1.1.13
+
+Support for the `inherit` and `match` keywords
+
 ### 1.1.12
 
 Added support for Dosato v0.6
@@ -35,7 +39,7 @@ Added support for hex, binary and octal numbers
 
 ### 1.1.7
 
-Infinity and NaN are now highlighted as constants
+`Infinity` and `NaN` are now highlighted as constants
 
 ### 1.1.6
 
@@ -47,7 +51,7 @@ Added support for block comments
 
 ### 1.1.4
 
-Added support for new keywords (const and function)
+Added support for `const` and `function` keywords
 
 ### 1.1.2
 
